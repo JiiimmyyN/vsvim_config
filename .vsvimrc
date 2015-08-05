@@ -1,4 +1,6 @@
+"Lets kick the arrow key habit!
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
