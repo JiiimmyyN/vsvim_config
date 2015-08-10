@@ -4,3 +4,6 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+"show quickfix menu
+nnoremap <bs> :vsc ReSharper_AltEnter<cr>
+xnoremap <bs> :vsc ReSharper_AltEnter<cr>
