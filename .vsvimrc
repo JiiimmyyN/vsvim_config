@@ -7,3 +7,11 @@ noremap <Right> <Nop>
 "show quickfix menu
 nnoremap <bs> :vsc ReSharper_AltEnter<cr>
 xnoremap <bs> :vsc ReSharper_AltEnter<cr>
+
+
+"Window stuff
+nnoremap gwv :vsc Window.NewVerticalTabGroup<CR>
+nnoremap gwj :vsc Window.PreviousDocumentWindow<CR>
+nnoremap gwk :vsc Window.NextDocumentWindow<CR>
+nnoremap gwC :vsc Window.CloseDocumentWindow<CR>
+
