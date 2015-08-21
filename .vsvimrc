@@ -21,6 +21,10 @@ nnoremap gwa :vsc File.CloseAllButThis<CR>
 " 
 nnoremap gtd :vsc Edit.GoToDefinition<CR>
 nnoremap gfr :vsc Edit.FindAllReferences<CR>
+nnoremap gfar :vsc Edit.Replace<CR>
 
 nnoremap ger :vsc Edit.ExpandCurrnetRegion<CR>
 nnoremap gcr :vsc Edit.CollapseCurrentRegion<CR>
+
+"Refactoring
+nnoremap grR :vsc ReSharper.ReSharper_Rename<CR>
