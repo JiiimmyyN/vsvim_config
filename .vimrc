@@ -28,3 +28,9 @@ nnoremap gcr :vsc Edit.CollapseCurrentRegion<CR>
 
 "Refactoring
 nnoremap grR :vsc ReSharper.ReSharper_Rename<CR>
+"Go to next/previous error.
+nnoremap gnerr :vsc Edit.GoToNextLocation<CR>
+nnoremap gperr :vsc Edit.GoToPrevLocation<CR>
+
+"macro
+map gpa I//
