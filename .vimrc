@@ -1,5 +1,5 @@
 noremap <C-A-F5> :so ~/.vsvimrc
-
+set background=dark
 let mapleader = ","
 
 "Lets kick the arrow key habit!
@@ -41,4 +41,10 @@ nnoremap <leader>rat :vsc TestExplorer.RunAllTests<CR>
 nnoremap <leader>rbs :vsc Build.RebuildSelection<CR>
 
 "macro
-map gpa I//
+map <leader>/ I//<ESC>j
+
+"B and E go to start and end of file, $ and ^
+nnoremap B ^
+nnoremap E $
+nnoremap $ <nop>
+nnoremap ^ <nop>
