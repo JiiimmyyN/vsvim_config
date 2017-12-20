@@ -48,3 +48,6 @@ nnoremap B ^
 nnoremap E $
 nnoremap $ <nop>
 nnoremap ^ <nop>
+
+"Toggle current fold with space
+nnoremap <Space> za
