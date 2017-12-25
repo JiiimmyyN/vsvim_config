@@ -1,5 +1,4 @@
 noremap <C-A-F5> :so ~/.vsvimrc
-set background=dark
 let mapleader = ","
 
 "Lets kick the arrow key habit!
@@ -7,10 +6,6 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
-
-"show quickfix menu 
-nnoremap <bs> :vsc ReSharper_AltEnter<cr>
-xnoremap <bs> :vsc ReSharper_AltEnter<cr>
 
 "Visual studio specefic commands
 nnoremap <leader>td :vsc Edit.GoToDefinition<CR>
